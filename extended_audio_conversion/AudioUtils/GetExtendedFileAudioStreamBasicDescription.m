@@ -19,7 +19,7 @@ void GetExtendedFileAudioStreamBasicDescription(ExtAudioFileRef iExtAudioFileRef
                                          kExtAudioFileProperty_FileDataFormat,
                                          &propertyValueSize,
                                          &writable),
-             "Gettinf the file data format property value size of audio file");
+             "Getting the file data format property value size of audio file");
   
   CheckError(ExtAudioFileGetProperty(iExtAudioFileRef,
                                      kExtAudioFileProperty_FileDataFormat,
