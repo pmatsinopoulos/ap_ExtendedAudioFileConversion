@@ -104,12 +104,12 @@ int main(int argc, const char * argv[]) {
     
     SetUpAudioDataSettingsForOutputFile(&audioConverterSettings);
     
-    // The bigger the number of packets, the less the number of calls to +ExtAudioFileRead()+ and program runs faster.
-    audioConverterSettings.outputBufferSizeInPackets = atoi(argv[2]);
-    
     InitializeOutputAudioFile(audioConverterSettings.outputFormat, OUTPUT_FILE_NAME, OUTPUT_FILE_TYPE, "Initializing Output Audio File", &audioConverterSettings.outputFile);
     
     SetConversionOutputFormat(audioConverterSettings.inputFile, audioConverterSettings.outputFormat);
+
+    // The bigger the number of packets, the less the number of calls to +ExtAudioFileRead()+ and program runs faster.
+    audioConverterSettings.outputBufferSizeInPackets = atoi(argv[2]);
     
     Convert(audioConverterSettings);
     
