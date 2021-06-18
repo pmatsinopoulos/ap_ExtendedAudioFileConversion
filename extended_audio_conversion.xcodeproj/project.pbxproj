@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E50D883F26771C0400A23DD6 /* CheckError.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D883E26771C0400A23DD6 /* CheckError.m */; };
+		E50D884726771DDA00A23DD6 /* OpenExtendedAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D884626771DDA00A23DD6 /* OpenExtendedAudioFile.m */; };
+		E50D884B26771E1500A23DD6 /* CharPointerFilenameToNSURLp.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D884A26771E1500A23DD6 /* CharPointerFilenameToNSURLp.m */; };
+		E50D88512678640F00A23DD6 /* GetExtendedFileAudioStreamBasicDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D88502678640F00A23DD6 /* GetExtendedFileAudioStreamBasicDescription.m */; };
+		E50D885726786A7600A23DD6 /* InitializeOutputAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D885626786A7600A23DD6 /* InitializeOutputAudioFile.m */; };
+		E50D885D2679C1AD00A23DD6 /* NSPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D885C2679C1AD00A23DD6 /* NSPrint.m */; };
+		E50D88702679C59E00A23DD6 /* PrintFileAudioInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D88632679C59E00A23DD6 /* PrintFileAudioInformation.m */; };
+		E50D88712679C59E00A23DD6 /* PrintAudioFormatFlags.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D88642679C59E00A23DD6 /* PrintAudioFormatFlags.m */; };
+		E50D88722679C59E00A23DD6 /* PrintAudioFileDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D88652679C59E00A23DD6 /* PrintAudioFileDictionary.m */; };
+		E50D88732679C59E00A23DD6 /* PrintMagicCookieEncodingInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D88662679C59E00A23DD6 /* PrintMagicCookieEncodingInformation.m */; };
+		E50D88742679C59E00A23DD6 /* PrintOutputFileAudioInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D88692679C59E00A23DD6 /* PrintOutputFileAudioInformation.m */; };
+		E50D88752679C59E00A23DD6 /* PrintAudioStreamBasicDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D886A2679C59E00A23DD6 /* PrintAudioStreamBasicDescription.m */; };
+		E50D88762679C59E00A23DD6 /* PrintAudioFormatID.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D886D2679C59E00A23DD6 /* PrintAudioFormatID.m */; };
+		E50D887A2679C65800A23DD6 /* GetAudioFilePropertyInfoDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D88782679C65800A23DD6 /* GetAudioFilePropertyInfoDictionary.m */; };
+		E50D887E2679C69900A23DD6 /* GetEncodingMagicCookie.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D887D2679C69900A23DD6 /* GetEncodingMagicCookie.m */; };
+		E50D88822679C6D200A23DD6 /* OpenAudioFile.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D88802679C6D100A23DD6 /* OpenAudioFile.m */; };
+		E50D88862679C6FF00A23DD6 /* GetNumberOfPackets.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D88842679C6FF00A23DD6 /* GetNumberOfPackets.m */; };
+		E50D888A2679C71A00A23DD6 /* GetMaximumPacketSize.m in Sources */ = {isa = PBXBuildFile; fileRef = E50D88892679C71A00A23DD6 /* GetMaximumPacketSize.m */; };
 		E5E240D42675235600F74502 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E5E240D32675235600F74502 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +41,43 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E50D883E26771C0400A23DD6 /* CheckError.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckError.m; sourceTree = "<group>"; };
+		E50D884226771C1800A23DD6 /* CheckError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckError.h; sourceTree = "<group>"; };
+		E50D884326771C7E00A23DD6 /* AudioConverterSettings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioConverterSettings.h; sourceTree = "<group>"; };
+		E50D884626771DDA00A23DD6 /* OpenExtendedAudioFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenExtendedAudioFile.m; sourceTree = "<group>"; };
+		E50D884A26771E1500A23DD6 /* CharPointerFilenameToNSURLp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CharPointerFilenameToNSURLp.m; sourceTree = "<group>"; };
+		E50D884D26771E2F00A23DD6 /* CharPointerFilenameToNSURLp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CharPointerFilenameToNSURLp.h; sourceTree = "<group>"; };
+		E50D884E26771E6600A23DD6 /* OpenExtendedAudioFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenExtendedAudioFile.h; sourceTree = "<group>"; };
+		E50D88502678640F00A23DD6 /* GetExtendedFileAudioStreamBasicDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetExtendedFileAudioStreamBasicDescription.m; sourceTree = "<group>"; };
+		E50D88532678665900A23DD6 /* GetExtendedFileAudioStreamBasicDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetExtendedFileAudioStreamBasicDescription.h; sourceTree = "<group>"; };
+		E50D885626786A7600A23DD6 /* InitializeOutputAudioFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InitializeOutputAudioFile.m; sourceTree = "<group>"; };
+		E50D885A26786A8300A23DD6 /* InitializeOutputAudioFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InitializeOutputAudioFile.h; sourceTree = "<group>"; };
+		E50D885C2679C1AD00A23DD6 /* NSPrint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSPrint.m; sourceTree = "<group>"; };
+		E50D885F2679C1C600A23DD6 /* NSPrint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSPrint.h; sourceTree = "<group>"; };
+		E50D88622679C59E00A23DD6 /* PrintAudioStreamBasicDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintAudioStreamBasicDescription.h; sourceTree = "<group>"; };
+		E50D88632679C59E00A23DD6 /* PrintFileAudioInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintFileAudioInformation.m; sourceTree = "<group>"; };
+		E50D88642679C59E00A23DD6 /* PrintAudioFormatFlags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintAudioFormatFlags.m; sourceTree = "<group>"; };
+		E50D88652679C59E00A23DD6 /* PrintAudioFileDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintAudioFileDictionary.m; sourceTree = "<group>"; };
+		E50D88662679C59E00A23DD6 /* PrintMagicCookieEncodingInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintMagicCookieEncodingInformation.m; sourceTree = "<group>"; };
+		E50D88672679C59E00A23DD6 /* PrintAudioFormatFlags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintAudioFormatFlags.h; sourceTree = "<group>"; };
+		E50D88682679C59E00A23DD6 /* PrintFileAudioInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintFileAudioInformation.h; sourceTree = "<group>"; };
+		E50D88692679C59E00A23DD6 /* PrintOutputFileAudioInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintOutputFileAudioInformation.m; sourceTree = "<group>"; };
+		E50D886A2679C59E00A23DD6 /* PrintAudioStreamBasicDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintAudioStreamBasicDescription.m; sourceTree = "<group>"; };
+		E50D886B2679C59E00A23DD6 /* PrintAudioFormatID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintAudioFormatID.h; sourceTree = "<group>"; };
+		E50D886C2679C59E00A23DD6 /* PrintMagicCookieEncodingInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintMagicCookieEncodingInformation.h; sourceTree = "<group>"; };
+		E50D886D2679C59E00A23DD6 /* PrintAudioFormatID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintAudioFormatID.m; sourceTree = "<group>"; };
+		E50D886E2679C59E00A23DD6 /* PrintAudioFileDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintAudioFileDictionary.h; sourceTree = "<group>"; };
+		E50D886F2679C59E00A23DD6 /* PrintOutputFileAudioInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintOutputFileAudioInformation.h; sourceTree = "<group>"; };
+		E50D88782679C65800A23DD6 /* GetAudioFilePropertyInfoDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetAudioFilePropertyInfoDictionary.m; sourceTree = "<group>"; };
+		E50D88792679C65800A23DD6 /* GetAudioFilePropertyInfoDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetAudioFilePropertyInfoDictionary.h; sourceTree = "<group>"; };
+		E50D887C2679C69900A23DD6 /* GetEncodingMagicCookie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetEncodingMagicCookie.h; sourceTree = "<group>"; };
+		E50D887D2679C69900A23DD6 /* GetEncodingMagicCookie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetEncodingMagicCookie.m; sourceTree = "<group>"; };
+		E50D88802679C6D100A23DD6 /* OpenAudioFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenAudioFile.m; sourceTree = "<group>"; };
+		E50D88812679C6D200A23DD6 /* OpenAudioFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenAudioFile.h; sourceTree = "<group>"; };
+		E50D88842679C6FF00A23DD6 /* GetNumberOfPackets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetNumberOfPackets.m; sourceTree = "<group>"; };
+		E50D88852679C6FF00A23DD6 /* GetNumberOfPackets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetNumberOfPackets.h; sourceTree = "<group>"; };
+		E50D88882679C71A00A23DD6 /* GetMaximumPacketSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetMaximumPacketSize.h; sourceTree = "<group>"; };
+		E50D88892679C71A00A23DD6 /* GetMaximumPacketSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetMaximumPacketSize.m; sourceTree = "<group>"; };
 		E5E240D02675235600F74502 /* extended_audio_conversion */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = extended_audio_conversion; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E240D32675235600F74502 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +93,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E50D883D26771BEE00A23DD6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				E50D883E26771C0400A23DD6 /* CheckError.m */,
+				E50D884226771C1800A23DD6 /* CheckError.h */,
+				E50D884A26771E1500A23DD6 /* CharPointerFilenameToNSURLp.m */,
+				E50D884D26771E2F00A23DD6 /* CharPointerFilenameToNSURLp.h */,
+				E50D885C2679C1AD00A23DD6 /* NSPrint.m */,
+				E50D885F2679C1C600A23DD6 /* NSPrint.h */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E50D884526771DA800A23DD6 /* AudioUtils */ = {
+			isa = PBXGroup;
+			children = (
+				E50D88882679C71A00A23DD6 /* GetMaximumPacketSize.h */,
+				E50D88892679C71A00A23DD6 /* GetMaximumPacketSize.m */,
+				E50D88852679C6FF00A23DD6 /* GetNumberOfPackets.h */,
+				E50D88842679C6FF00A23DD6 /* GetNumberOfPackets.m */,
+				E50D88812679C6D200A23DD6 /* OpenAudioFile.h */,
+				E50D88802679C6D100A23DD6 /* OpenAudioFile.m */,
+				E50D887C2679C69900A23DD6 /* GetEncodingMagicCookie.h */,
+				E50D887D2679C69900A23DD6 /* GetEncodingMagicCookie.m */,
+				E50D88792679C65800A23DD6 /* GetAudioFilePropertyInfoDictionary.h */,
+				E50D88782679C65800A23DD6 /* GetAudioFilePropertyInfoDictionary.m */,
+				E50D88612679C4E700A23DD6 /* PrintUtils */,
+				E50D884626771DDA00A23DD6 /* OpenExtendedAudioFile.m */,
+				E50D884E26771E6600A23DD6 /* OpenExtendedAudioFile.h */,
+				E50D88502678640F00A23DD6 /* GetExtendedFileAudioStreamBasicDescription.m */,
+				E50D88532678665900A23DD6 /* GetExtendedFileAudioStreamBasicDescription.h */,
+				E50D885626786A7600A23DD6 /* InitializeOutputAudioFile.m */,
+				E50D885A26786A8300A23DD6 /* InitializeOutputAudioFile.h */,
+			);
+			path = AudioUtils;
+			sourceTree = "<group>";
+		};
+		E50D88612679C4E700A23DD6 /* PrintUtils */ = {
+			isa = PBXGroup;
+			children = (
+				E50D886E2679C59E00A23DD6 /* PrintAudioFileDictionary.h */,
+				E50D88652679C59E00A23DD6 /* PrintAudioFileDictionary.m */,
+				E50D88672679C59E00A23DD6 /* PrintAudioFormatFlags.h */,
+				E50D88642679C59E00A23DD6 /* PrintAudioFormatFlags.m */,
+				E50D886B2679C59E00A23DD6 /* PrintAudioFormatID.h */,
+				E50D886D2679C59E00A23DD6 /* PrintAudioFormatID.m */,
+				E50D88622679C59E00A23DD6 /* PrintAudioStreamBasicDescription.h */,
+				E50D886A2679C59E00A23DD6 /* PrintAudioStreamBasicDescription.m */,
+				E50D88682679C59E00A23DD6 /* PrintFileAudioInformation.h */,
+				E50D88632679C59E00A23DD6 /* PrintFileAudioInformation.m */,
+				E50D886C2679C59E00A23DD6 /* PrintMagicCookieEncodingInformation.h */,
+				E50D88662679C59E00A23DD6 /* PrintMagicCookieEncodingInformation.m */,
+				E50D886F2679C59E00A23DD6 /* PrintOutputFileAudioInformation.h */,
+				E50D88692679C59E00A23DD6 /* PrintOutputFileAudioInformation.m */,
+			);
+			path = PrintUtils;
+			sourceTree = "<group>";
+		};
 		E5E240C72675235600F74502 = {
 			isa = PBXGroup;
 			children = (
@@ -57,7 +170,10 @@
 		E5E240D22675235600F74502 /* extended_audio_conversion */ = {
 			isa = PBXGroup;
 			children = (
+				E50D884526771DA800A23DD6 /* AudioUtils */,
+				E50D883D26771BEE00A23DD6 /* Utils */,
 				E5E240D32675235600F74502 /* main.m */,
+				E50D884326771C7E00A23DD6 /* AudioConverterSettings.h */,
 			);
 			path = extended_audio_conversion;
 			sourceTree = "<group>";
@@ -119,6 +235,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5E240D42675235600F74502 /* main.m in Sources */,
+				E50D88512678640F00A23DD6 /* GetExtendedFileAudioStreamBasicDescription.m in Sources */,
+				E50D88752679C59E00A23DD6 /* PrintAudioStreamBasicDescription.m in Sources */,
+				E50D885D2679C1AD00A23DD6 /* NSPrint.m in Sources */,
+				E50D88702679C59E00A23DD6 /* PrintFileAudioInformation.m in Sources */,
+				E50D887E2679C69900A23DD6 /* GetEncodingMagicCookie.m in Sources */,
+				E50D887A2679C65800A23DD6 /* GetAudioFilePropertyInfoDictionary.m in Sources */,
+				E50D88732679C59E00A23DD6 /* PrintMagicCookieEncodingInformation.m in Sources */,
+				E50D88822679C6D200A23DD6 /* OpenAudioFile.m in Sources */,
+				E50D884726771DDA00A23DD6 /* OpenExtendedAudioFile.m in Sources */,
+				E50D88862679C6FF00A23DD6 /* GetNumberOfPackets.m in Sources */,
+				E50D88712679C59E00A23DD6 /* PrintAudioFormatFlags.m in Sources */,
+				E50D885726786A7600A23DD6 /* InitializeOutputAudioFile.m in Sources */,
+				E50D883F26771C0400A23DD6 /* CheckError.m in Sources */,
+				E50D88722679C59E00A23DD6 /* PrintAudioFileDictionary.m in Sources */,
+				E50D88742679C59E00A23DD6 /* PrintOutputFileAudioInformation.m in Sources */,
+				E50D888A2679C71A00A23DD6 /* GetMaximumPacketSize.m in Sources */,
+				E50D88762679C59E00A23DD6 /* PrintAudioFormatID.m in Sources */,
+				E50D884B26771E1500A23DD6 /* CharPointerFilenameToNSURLp.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
